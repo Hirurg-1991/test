@@ -1,26 +1,29 @@
-let inputModal = document.querySelector("#phoneModal");
-    var itiModal = window.intlTelInput(inputModal, {
-            initialCountry: "auto",
-            autoPlaceholder: "aggressive",
-            nationalMode: true,
-            showSelectedDialCode: true,
-            formatOnDisplay: false,
-            autoHideDialCode: false,
-            geoIpLookup: function (success, failure) {
-                $.get("https://ipinfo.io", function () {}, "jsonp").always(function (resp) {
-                    var countryCode = resp && resp.country ? resp.country : "";
-                    
-                    success(countryCode);
-                });
-            },
-            utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
-        });
-        inputModal.addEventListener('input', function() {
-          var fullNumber = itiModal.getNumber();
-          document.getElementById('full_phone').value = fullNumber;
-        });
-
 $( document ).ready(function(){
+  let inputModal = document.querySelector("#phoneModal");
+
+
+
+  var itiModal = window.intlTelInput(inputModal, {
+    initialCountry: "auto",
+    autoPlaceholder: "aggressive",
+    nationalMode: true,
+    showSelectedDialCode: true,
+    formatOnDisplay: false,
+    autoHideDialCode: false,
+    geoIpLookup: function (success, failure) {
+        $.get("https://ipinfo.io", function () {}, "jsonp").always(function (resp) {
+            var countryCode = resp && resp.country ? resp.country : "";
+            
+            success(countryCode);
+        });
+    },
+    utilsScript: "https://cdn.jsdelivr.net/npm/intl-tel-input@18.1.1/build/js/utils.js",
+});
+inputModal.addEventListener('input', function() {
+  var fullNumber = itiModal.getNumber();
+  document.getElementById('full_phone').value = fullNumber;
+});
+
 
   new WOW().init();
   $('.popup-wrap, .close').on('click', function(e){
@@ -174,4 +177,127 @@ $( document ).ready(function(){
 		e.preventDefault();
 		$('#popup-policy').fadeIn();
 	})
+  });
+
+  $(".quiz__btn-prev, .quiz__btn-next").on("click", function () {
+    $(".popup-wrap").animate({scrollTop: 50}, 1000);
+});
+
+
+$(document).ready(function () {
+
+  setTimeout(function(){
+      if(!$("#quiz").is(":visible")){
+          $('#quiz').fadeIn()
+      }
+  }, 15000)
+
+
+  // jQuery('#phone_mask').inputmask('(999) 999-9999')
+  // $('#phone_mask').inputmask({
+  //     'mask': mask
+  // });
+
+  // function getMaskForCountry(countryCode) {
+  //     let mask = '';
+  //     switch (countryCode) {
+  //         case 'uz':
+  //             mask = '(999) 999-9999';
+  //             break;
+  //         case 'us':
+  //             mask = '9999 999 999';
+  //             break;
+  //     }
+  //     return mask;
+  // }
+
+  // let input = document.querySelector("#phone_mask");
+  // var iti = window.intlTelInput(input, {
+  //     initialCountry: "uz",
+  //     utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js",
+  //     onlyCountries: ["uz"],
+  //     separateDialCode: true
+  // });
+
+  // $("#country_iso").val(iti.s.iso2)
+  // $("#country_code").val(iti.s.dialCode)
+
+  // input.addEventListener("countrychange", function() {
+  //     let itiData = iti.getSelectedCountryData();
+  //     let country_iso = itiData.iso2;
+  //     let countryCode = itiData.dialCode;
+
+  //     $("#country_iso").val(country_iso)
+  //     $("#country_code").val(countryCode)
+
+  //     // let mask = getMaskForCountry(countryCode);
+  //     //
+  //     // $('#phone_mask').inputmask('remove');
+  //     // $('#phone_mask').inputmask({
+  //     //     'mask': mask
+  //     // });
+  // });
+
+
+  $('.quiz__final__btn').click(function () {
+
+      $(this).attr('disabled', true)
+      $('.preloader').addClass('active')
+
+      let name = $('.c-form [name="name"]')
+      let lastname = $('.c-form [name="lastname"]')
+      let nameCount = $(name).val().length;
+      let lastnameCount = $(lastname).val().length;
+
+      if (nameCount < 2) {
+          $(name).removeClass('valid');
+          $(name).addClass('isValid');
+      } else {
+          $(name).removeClass('isValid');
+          $(name).addClass('valid');
+
+      }
+      if (lastnameCount < 2) {
+          $(lastname).removeClass('valid')
+          $(lastname).addClass('isValid')
+      } else {
+          $(lastname).removeClass('isValid')
+          $(lastname).addClass('valid')
+      }
+
+      let form_data = $('.c-form').serialize();
+
+      // $.ajax({
+      //     type: 'POST',
+      //     url: 'send.php',
+      //     data: form_data,
+      //     success: function (data) {
+      //         let decoded = JSON.parse(data)
+      //         console.log(decoded)
+
+      //         if(decoded.success){
+                  
+      //             $(".quiz__final__form").hide()
+      //             $(".quiz__question__progress").hide()
+      //             $(".quiz__final__message").show()
+      //         }else{
+      //             $("#phone_mask").addClass('isValid');
+      //             $('.quiz__final__btn').attr('disabled', false)
+      //             $('.preloader').removeClass('active')
+      //         }
+
+      //         $('.c-form .form-error-content').removeClass('active');
+      //         $('.preloader').removeClass('active');
+      //     }
+      // })
+
   })
+
+  $('a[href*="#"]').on('click', function (e) {
+      e.preventDefault()
+      $('html, body').animate({
+              scrollTop: $($(this).attr('href')).offset().top - 100,
+          }, 500, 'linear'
+      )
+  })
+});

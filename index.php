@@ -4,17 +4,17 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <title>Реализуйте свои мечты с инвестиционной платформой &quot;Usm Invest&quot; - Сколько вы сможете зарабатывать на
         инвестициях?</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="../lander/usm/land/wp-content/uploads/fbrfg/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../lander/usm/land/wp-content/uploads/fbrfg/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../lander/usm/land/wp-content/uploads/fbrfg/favicon-16x16.png">
-    <link rel="manifest" href="../lander/usm/land/wp-content/uploads/fbrfg/site.webmanifest.txt">
-    <link rel="mask-icon" href="../lander/usm/land/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href="../lander/usm/land/wp-content/uploads/fbrfg/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./lander/usm/land/wp-content/uploads/fbrfg/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./lander/usm/land/wp-content/uploads/fbrfg/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./lander/usm/land/wp-content/uploads/fbrfg/favicon-16x16.png">
+  
+    <link rel="mask-icon" href="./lander/usm/land/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="./lander/usm/land/wp-content/uploads/fbrfg/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="icon" href="../lander/usm/land/wp-content/uploads/2021/10/cropped-logo-t-32x32.png" sizes="32x32">
-    <link rel="icon" href="../lander/usm/land/wp-content/uploads/2021/10/cropped-logo-t-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="../lander/usm/land/wp-content/uploads/2021/10/cropped-logo-t-180x180.png">
+    <link rel="icon" href="./lander/usm/land/wp-content/uploads/2021/10/cropped-logo-t-32x32.png" sizes="32x32">
+    <link rel="icon" href="./lander/usm/land/wp-content/uploads/2021/10/cropped-logo-t-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="./lander/usm/land/wp-content/uploads/2021/10/cropped-logo-t-180x180.png">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -353,22 +353,22 @@
         }
     </style>
 
-    <link rel="stylesheet" id="plyr-css-css" href="../lander/usm/land/wp-content/plugins/easy-video-player/lib/plyr.css" type="text/css" media="all">
-    <link rel="stylesheet" id="animate-css" href="../lander/usm/assets/css/animate.css" type="text/css" media="all">
-    <link rel="stylesheet" id="main-style-css" href="../lander/usm/assets/css/style.css" type="text/css" media="all">
-    <link rel="stylesheet" href="../ajax/libs/intl-tel-input/20.3.0/css/intlTelInput.css">
+    <link rel="stylesheet" id="plyr-css-css" href="./lander/usm/land/wp-content/plugins/easy-video-player/lib/plyr.css" type="text/css" media="all">
+    <link rel="stylesheet" id="animate-css" href="./lander/usm/assets/css/animate.css" type="text/css" media="all">
+    <link rel="stylesheet" id="main-style-css" href="./lander/usm/assets/css/style.css" type="text/css" media="all">
+    <link rel="stylesheet" href="./ajax/libs/intl-tel-input/20.3.0/css/intlTelInput.css">
 
-    <script src="../jquery-3.6.0.min.js"></script>
-    <script src="../ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
-    <script src="../ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./ajax/libs/jquery-validate/1.20.0/jquery.validate.min.js"></script>
+    <script src="./ajax/libs/intl-tel-input/17.0.13/js/intlTelInput.min.js"></script>
 
 
-    <script type="text/javascript" src="../lander/usm/land/wp-content/plugins/easy-video-player/lib/plyr.js" id="plyr-js-js"></script>
-    <script type="text/javascript" src="../lander/usm/assets/js/slick.js" id="slick-js"></script>
-    <script type="text/javascript" src="../lander/usm/assets/js/wow.js" id="wow-js"></script>
-    <script type="text/javascript" src="../lander/usm/assets/js/main.js" id="main-script-js"></script>
+    <script type="text/javascript" src="./lander/usm/land/wp-content/plugins/easy-video-player/lib/plyr.js" id="plyr-js-js"></script>
+    <script type="text/javascript" src="./lander/usm/assets/js/slick.js" id="slick-js"></script>
+    <script type="text/javascript" src="./lander/usm/assets/js/wow.js" id="wow-js"></script>
+    <script type="text/javascript" src="./lander/usm/assets/js/main.js" id="main-script-js"></script>
 
-    <link rel="stylesheet" href="../lander/usm/land/index_files/form_new.css">
+    <link rel="stylesheet" href="./lander/usm/land/index_files/form_new.css">
     <style>
         .preloader {
             position: fixed;
@@ -648,13 +648,13 @@
 </style>
 <section class="first-screen">
     <div class="first-screen__bg">
-        <img src="../lander/usm/land/wp-content/uploads/2023/03/main.jpeg" alt="">
+        <img src="./lander/usm/land/wp-content/uploads/2023/03/main.jpeg" alt="">
     </div>
     <header>
         <div class="header container">
             <div class="logo">
                 <a href="index.php" class="logo__c">
-                    <img src="../lander/usm/land/wp-content/uploads/2023/03/logo_bl.png" alt="" class="logo__img">
+                    <img src="./lander/usm/land/wp-content/uploads/2023/03/logo_bl.png" alt="" class="logo__img">
                 </a>
             </div>
         </div>
@@ -668,7 +668,7 @@
             "Usm Invest"</h1>
         <div class="main__advantages">
             <div class="main__advantage wow fadeInUp">
-                <img src="../lander/usm/land/wp-content/uploads/2023/03/-e1678423099695.png" alt="">
+                <img src="./lander/usm/land/wp-content/uploads/2023/03/-e1678423099695.png" alt="">
                 <p>
                     Более 7О ООО граждан<br>
                     уже изменили свою жизнь<br>
@@ -676,7 +676,7 @@
                 </p>
             </div>
             <div class="main__advantage wow fadeInUp">
-                <img src="../lander/usm/land/wp-content/uploads/2023/03/license_uz.jpg" alt="">
+                <img src="./lander/usm/land/wp-content/uploads/2023/03/license_uz.jpg" alt="">
                 <p>
                      <span class="fw-bold">
                      Бизнесмен Усманов подписал<br>
@@ -758,7 +758,7 @@
                       </span>
                 </button>
                 <p class="main__btn__desc">
-                    <img src="../lander/usm/assets/img/clock.png" alt="">
+                    <img src="./lander/usm/assets/img/clock.png" alt="">
                     Займет не<br>
                     больше <span class="fw-medium">1 минуты</span>
                 </p>
@@ -773,7 +773,7 @@
             <div class="close"></div>
             <div class="quiz__left">
                 <div class="quiz__manager">
-                    <img src="../lander/usm/land/wp-content/uploads/2023/03/license_uz.jpg" alt="">
+                    <img src="./lander/usm/land/wp-content/uploads/2023/03/license_uz.jpg" alt="">
                 </div>
                 <div class="quiz__manager__name">
                     <span> Лицензия №045-13980-02000 </span>
@@ -783,7 +783,7 @@
                     платформа Usm Invest"
                 </div>
                 <div class="quiz__help">
-                    <img src="../lander/usm/assets/img/arr-help.png" alt="">
+                    <img src="./lander/usm/assets/img/arr-help.png" alt="">
                     <p></p>
                 </div>
             </div>
@@ -832,7 +832,7 @@
                             </div>
                         </div>
                         <div class="quiz__answers__img">
-                            <img src="../lander/usm/land/wp-content/uploads/2023/03/num1.jpg" alt="">
+                            <img src="./lander/usm/land/wp-content/uploads/2023/03/num1.jpg" alt="">
                         </div>
                     </div>
                     <div class="quiz__buttons">
@@ -884,7 +884,7 @@
                             </div>
                         </div>
                         <div class="quiz__answers__img">
-                            <img src="../lander/usm/land/wp-content/uploads/2023/03/num2.jpg" alt="">
+                            <img src="./lander/usm/land/wp-content/uploads/2023/03/num2.jpg" alt="">
                         </div>
                     </div>
                     <div class="quiz__buttons">
@@ -941,7 +941,7 @@
                             </div>
                         </div>
                         <div class="quiz__answers__img">
-                            <img src="../lander/usm/land/wp-content/uploads/2023/03/num3.jpg" alt="">
+                            <img src="./lander/usm/land/wp-content/uploads/2023/03/num3.jpg" alt="">
                         </div>
                     </div>
                     <div class="quiz__buttons">
@@ -998,7 +998,7 @@
                             </div>
                         </div>
                         <div class="quiz__answers__img">
-                            <img src="../lander/usm/land/wp-content/uploads/2023/03/num4.jpg" alt="">
+                            <img src="./lander/usm/land/wp-content/uploads/2023/03/num4.jpg" alt="">
                         </div>
                     </div>
                     <div class="quiz__buttons">
@@ -1056,7 +1056,7 @@
                             </div>
                         </div>
                         <div class="quiz__answers__img">
-                            <img src="../lander/usm/land/wp-content/uploads/2023/03/num5.jpg" alt="">
+                            <img src="./lander/usm/land/wp-content/uploads/2023/03/num5.jpg" alt="">
                         </div>
                     </div>
                     <div class="quiz__buttons">
@@ -1106,7 +1106,7 @@
                             </div>
                         </div>
                         <div class="quiz__answers__img">
-                            <img src="../lander/usm/land/wp-content/uploads/2023/03/num1.jpg" alt="">
+                            <img src="./lander/usm/land/wp-content/uploads/2023/03/num1.jpg" alt="">
                         </div>
                     </div>
                     <div class="quiz__buttons">
@@ -1580,142 +1580,14 @@
         </div>
     </div>
 </div>
-<script data-cfasync="false" src="../lander/usm/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-<script src="../lander/usm/land/fancybox.umd.js"></script>
-<link rel="stylesheet" href="../lander/usm/land/fancybox.css">
-<script>
-    $(".quiz__btn-prev, .quiz__btn-next").on("click", function () {
-        $(".popup-wrap").animate({scrollTop: 50}, 1000);
-    });
-</script>
-
-
-
-
-
-
+<script data-cfasync="false" src="./lander/usm/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+<script src="./lander/usm/land/fancybox.umd.js"></script>
+<link rel="stylesheet" href="./lander/usm/land/fancybox.css">
 
 
 
 <script type="text/javascript">
 
-    $(document).ready(function () {
-
-        setTimeout(function(){
-            if(!$("#quiz").is(":visible")){
-                $('#quiz').fadeIn()
-            }
-        }, 15000)
-
-
-        // jQuery('#phone_mask').inputmask('(999) 999-9999')
-        // $('#phone_mask').inputmask({
-        //     'mask': mask
-        // });
-
-        // function getMaskForCountry(countryCode) {
-        //     let mask = '';
-        //     switch (countryCode) {
-        //         case 'uz':
-        //             mask = '(999) 999-9999';
-        //             break;
-        //         case 'us':
-        //             mask = '9999 999 999';
-        //             break;
-        //     }
-        //     return mask;
-        // }
-
-        let input = document.querySelector("#phone_mask");
-        var iti = window.intlTelInput(input, {
-            initialCountry: "uz",
-            utilsScript: "https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/js/utils.js",
-            onlyCountries: ["uz"],
-            separateDialCode: true
-        });
-
-        $("#country_iso").val(iti.s.iso2)
-        $("#country_code").val(iti.s.dialCode)
-
-        input.addEventListener("countrychange", function() {
-            let itiData = iti.getSelectedCountryData();
-            let country_iso = itiData.iso2;
-            let countryCode = itiData.dialCode;
-
-            $("#country_iso").val(country_iso)
-            $("#country_code").val(countryCode)
-
-            // let mask = getMaskForCountry(countryCode);
-            //
-            // $('#phone_mask').inputmask('remove');
-            // $('#phone_mask').inputmask({
-            //     'mask': mask
-            // });
-        });
-
-
-        $('.quiz__final__btn').click(function () {
-
-            $(this).attr('disabled', true)
-            $('.preloader').addClass('active')
-
-            let name = $('.c-form [name="name"]')
-            let lastname = $('.c-form [name="lastname"]')
-            let nameCount = $(name).val().length;
-            let lastnameCount = $(lastname).val().length;
-
-            if (nameCount < 2) {
-                $(name).removeClass('valid');
-                $(name).addClass('isValid');
-            } else {
-                $(name).removeClass('isValid');
-                $(name).addClass('valid');
-
-            }
-            if (lastnameCount < 2) {
-                $(lastname).removeClass('valid')
-                $(lastname).addClass('isValid')
-            } else {
-                $(lastname).removeClass('isValid')
-                $(lastname).addClass('valid')
-            }
-
-            let form_data = $('.c-form').serialize();
-
-            // $.ajax({
-            //     type: 'POST',
-            //     url: 'send.php',
-            //     data: form_data,
-            //     success: function (data) {
-            //         let decoded = JSON.parse(data)
-            //         console.log(decoded)
-
-            //         if(decoded.success){
-                        
-            //             $(".quiz__final__form").hide()
-            //             $(".quiz__question__progress").hide()
-            //             $(".quiz__final__message").show()
-            //         }else{
-            //             $("#phone_mask").addClass('isValid');
-            //             $('.quiz__final__btn').attr('disabled', false)
-            //             $('.preloader').removeClass('active')
-            //         }
-
-            //         $('.c-form .form-error-content').removeClass('active');
-            //         $('.preloader').removeClass('active');
-            //     }
-            // })
-
-        })
-
-        $('a[href*="#"]').on('click', function (e) {
-            e.preventDefault()
-            $('html, body').animate({
-                    scrollTop: $($(this).attr('href')).offset().top - 100,
-                }, 500, 'linear'
-            )
-        })
-    });
     function getIPAddress(callback) {
         var xhr = new XMLHttpRequest();
         xhr.open("GET", "https://api.ipify.org?format=json", true);
@@ -1749,4 +1621,3 @@
 </body>
 
 </html>
-
